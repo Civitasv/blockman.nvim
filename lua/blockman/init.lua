@@ -6,7 +6,6 @@ local osys = require("blockman.osys")
 
 local blockman = {}
 
-
 -- Users can use it to override default configuration of blockman
 function blockman.setup(values)
   const = vim.tbl_deep_extend("force", const, values)
